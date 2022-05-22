@@ -23,6 +23,18 @@
 
 .user-status{
     display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+    
+}
+
+.user-data{
+    display: flex;
+    align-items: center;
+}
+
+.user-data p{
+    margin: 0 0 0 15px;
 }
 
 .user-data img{
@@ -31,6 +43,7 @@
     border-radius: 50px;
 }
 
+/* Usuarios */
 .user{
     display: flex;
     align-items: center;
