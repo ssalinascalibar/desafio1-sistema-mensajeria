@@ -21,6 +21,16 @@
     
 }
 
+.user-status{
+    display: flex;
+}
+
+.user-data img{
+    margin: 10px 0;
+    width: 50px;
+    border-radius: 50px;
+}
+
 .user{
     display: flex;
     align-items: center;
