@@ -43,6 +43,15 @@
     border-radius: 50px;
 }
 
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navigation i{
+    margin: 0 5px;
+}
+
 /* Usuarios */
 .user{
     display: flex;
