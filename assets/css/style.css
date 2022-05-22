@@ -52,6 +52,16 @@
     margin: 0 5px;
 }
 
+/* nuevo chat */
+.nuevo-chat{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 50px 50px;
+}
+
 /* Usuarios */
 .user{
     display: flex;
