@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;  /* propiedad por defecto flex */
+    
+}
+
+/* Izquierda */
+.contactos{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    border: 1px solid blue;
+    
+    
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    width: 330px;
+    border: 1px solid #e8ebe4;
+    padding-left: 15%;
+    
+}
+
+.user img{
+    margin: 10px 0;
+    width: 60px;
+    border-radius: 50px;
+  
+}
+
+.user p{
+    margin: 0 0 0 10px;
+}
+
+
+
+
+/* Derecha */
+.chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid green;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.chat img{
+    width: 300px;
+}
