@@ -1,3 +1,4 @@
+/* Roboto, Open Sans fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
 
 
@@ -5,7 +6,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', 'Roboto' ;
+    font-family: 'Open Sans', 'Roboto', sans-serif ;
+}
+
+h2{
+    font-family: 'Roboto';
+    font-size: 45px;
 }
 
 .container{
@@ -65,6 +71,9 @@
 button{
     margin: 50px 50px;
     padding: 10px 60px;
+    background-color: #a491d2;
+    color: #fff;
+    border: none;
 }
 
 /* Usuarios */
