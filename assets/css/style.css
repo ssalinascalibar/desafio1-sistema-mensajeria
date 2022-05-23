@@ -10,7 +10,6 @@
 }
 
 h2{
-    
     font-size: 45px;
 }
 
@@ -25,9 +24,7 @@ h2{
     display: flex;
     flex-direction: column;
     margin: 10px 0;
-    
-    
-    
+
 }
 
 .user-status{
@@ -35,25 +32,24 @@ h2{
     justify-content: space-between;
     margin: 0 15%;
     
-    
-    
 }
 
 .user-data{
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
 
-/* .user-data h3{
+.data h3{
     margin: 0 0 0 10px;
-    font-size: 15px;
-} */
+    font-size: 14px;
+    text-align: center;
+} 
 
-.user-data p{
+.data p{
     margin: 0 0 0 15px;
     font-size: 10px;
+    text-align: center;
+    color: #bec1bb;
 }
 
 .user-data img{
@@ -71,7 +67,7 @@ h2{
 .navigation i{
     margin: 0 0 0 18px;
     font-size: 22px;
-    color: #bec1bb;
+    color: #828485;
     
 }
 
