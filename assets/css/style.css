@@ -46,10 +46,10 @@ h2{
     
 }
 
-.user-data h3{
+/* .user-data h3{
     margin: 0 0 0 10px;
     font-size: 15px;
-}
+} */
 
 .user-data p{
     margin: 0 0 0 15px;
@@ -111,6 +111,7 @@ button{
 
 .user p{
     margin: 0 0 0 10px;
+    font-size: 14px;
 }
 
 
