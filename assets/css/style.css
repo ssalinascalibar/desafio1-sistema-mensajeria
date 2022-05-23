@@ -15,7 +15,6 @@ h2{
 }
 
 .container{
-    border: 1px solid red;
     display: flex;
     flex-direction: row;  /* propiedad por defecto flex */
     
@@ -26,7 +25,7 @@ h2{
     display: flex;
     flex-direction: column;
     margin: 10px 0;
-    border: 1px solid blue;
+    
     
     
 }
@@ -44,10 +43,17 @@ h2{
     display: flex;
     align-items: center;
     
+    
+}
+
+.user-data h3{
+    margin: 0 0 0 10px;
+    font-size: 15px;
 }
 
 .user-data p{
     margin: 0 0 0 15px;
+    font-size: 10px;
 }
 
 .user-data img{
@@ -59,10 +65,14 @@ h2{
 .navigation{
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
 
 .navigation i{
-    margin: 0 5px;
+    margin: 0 0 0 18px;
+    font-size: 22px;
+    color: #bec1bb;
+    
 }
 
 /* nuevo chat */
@@ -74,9 +84,11 @@ h2{
 
 button{
     margin: 50px 50px;
-    padding: 10px 60px;
+    padding: 20px 60px;
     background-color: #a491d2;
     color: #fff;
+    font-family: 'Roboto';
+    font-size: 16px;
     border: none;
 }
 
@@ -112,7 +124,7 @@ button{
     align-items: center;
     width: 100%;
     margin: 10px 0;
-    border: 1px solid green;
+    
     text-align: center;
     background-color: #f6f6f6;
 }
